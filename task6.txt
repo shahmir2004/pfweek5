@@ -1,0 +1,68 @@
+#include<iostream>
+using namspace std;
+string one(int char1);
+
+main()
+{
+
+int char1;
+cout<<"Enter digit: "<<endl;
+cin >>char1;
+string result;
+
+result=one(char1);
+
+cout<<result;
+
+
+}
+
+
+
+string one(int char1)
+
+{
+  if(char1==1)
+  {
+    return "one";
+
+  }
+
+  if(char1==2)
+  {
+    return "two";
+  }
+
+  if(char1==3)
+  {
+    return "three";
+  }
+  if(char1==4)
+  {
+    return "four";
+  }
+  if(char1==5)
+  {
+    return "five";
+  }
+  if(char1==6)
+  {
+    return "six";
+  }
+
+  if(char1==7)
+  {
+    return "seven";
+  }
+  if(char1==8)
+  {
+    return "eight";
+  }
+  if(char1==9)
+  {
+    return "nine";
+  }
+
+  return 0;
+}
+  
